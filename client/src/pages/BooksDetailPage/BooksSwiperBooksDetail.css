@@ -1,0 +1,12 @@
+.booksSlider {
+  transition: box-shadow 0.3s ease, border-color 0.3s ease, filter 0.3s ease;
+  border: 4px solid transparent;
+  filter: brightness(100%) contrast(100%);
+}
+
+.booksSlider:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  filter: brightness(110%) contrast(110%);
+  border-image: linear-gradient(lightblue, rgb(255, 0, 0)) 1 stretch;
+  border-image-slice: 1;
+}

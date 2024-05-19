@@ -1,0 +1,9 @@
+.searchSwiper .swiper-button-prev {
+  left: calc(-2px);
+  color: #0a7dfa;
+}
+
+.searchSwiper .swiper-button-next {
+  right: calc(-2px);
+  color: #0a7dfa;
+}

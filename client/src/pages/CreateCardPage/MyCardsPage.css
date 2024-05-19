@@ -1,0 +1,19 @@
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 75vw;
+}
+
+.card-item {
+  flex: 1 1 300px;
+  max-width: 300px;
+}

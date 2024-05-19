@@ -1,0 +1,29 @@
+.liked-book-swiper-slide {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.liked-book-image {
+  width: 35%;
+  height: 250px;
+  margin: 0 auto;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.liked-book-fav-icon {
+  position: absolute;
+  top: 10%;
+  right: 34%;
+  z-index: 100;
+  color: red;
+  cursor: pointer;
+}
+@media (max-width: 400px) {
+  .liked-book-image {
+    width: 45%;
+  }
+  .liked-book-fav-icon {
+    right: 30%;
+  }
+}

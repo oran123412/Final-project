@@ -1,0 +1,15 @@
+const DEFAULT_STRING_VALIDATION_CARDS = {
+  type: String,
+  minLength: 2,
+  maxLength: 256,
+  trim: true,
+};
+const DEFAULT_REQUIRED_STRING_VALIDATION_CARDS = {
+  ...DEFAULT_STRING_VALIDATION_CARDS,
+  required: true,
+};
+
+export {
+  DEFAULT_STRING_VALIDATION_CARDS,
+  DEFAULT_REQUIRED_STRING_VALIDATION_CARDS,
+};

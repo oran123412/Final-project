@@ -1,0 +1,23 @@
+.calendar-scale {
+  transform: scale(1);
+  margin-left: 50px;
+  border: 2px solid yellow;
+  background-color: yellow;
+}
+.css-1aqny2q-MuiPickersCalendarHeader-root {
+  background-color: #1976d2;
+  width: 100%;
+  border: 15px solid #1976d2;
+}
+.css-ob0s1v-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+  color: black !important;
+  font-weight: 400 !important;
+  background-color: inherit !important;
+}
+
+@media (max-width: 480px) {
+  .calendar-scale {
+    width: 80%;
+    margin: auto;
+  }
+}

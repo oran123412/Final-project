@@ -1,0 +1,89 @@
+.button {
+  background-color: #4067a1;
+  color: white;
+  height: 4vh;
+  width: 8vw;
+}
+
+.button:hover {
+  background-color: #aee90d;
+}
+
+.image-zoom-container img {
+  transition: transform 0.5s ease;
+}
+.image-zoom-container {
+  width: 11.5vw;
+  height: 55vh;
+}
+.image-zoom-container .cardMediaClass {
+  width: 9vw;
+  margin: auto;
+  margin-top: 30px;
+  height: 27vh !important;
+}
+
+.oneRowOfSlider {
+  transition: opacity 0.5s ease;
+  opacity: 0;
+}
+.oneRowOfSlider:hover {
+  opacity: 1;
+}
+.oneRowOfSlider.visible {
+  opacity: 1;
+}
+.MuiCardContent-root .cardHeader .MuiTypography-root {
+  font-size: 1.3em;
+  height: 11vh;
+}
+
+@media screen and (max-width: 900px) {
+  .MuiCardContent-root .cardHeader .MuiTypography-root {
+    font-size: 1.1em;
+    height: 10vh;
+  }
+
+  .image-zoom-container {
+    width: 15vw;
+  }
+
+  .image-zoom-container img {
+    width: 14vw;
+  }
+
+  .image-zoom-container .cardMediaClass {
+    height: 25vh !important;
+  }
+
+  .button {
+    height: 5vh;
+    width: 7vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .MuiCardContent-root .cardHeader .MuiTypography-root {
+    font-size: 0.9em;
+    height: 7vh;
+  }
+  .image-zoom-container img {
+    width: 22vw;
+  }
+  .button {
+    height: 7vh;
+    width: 12vw;
+  }
+
+  .image-zoom-container .cardMediaClass {
+    width: 12vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .image-zoom-container {
+    width: 25vw;
+  }
+  .image-zoom-container .cardMediaClass {
+    width: 20vw;
+  }
+}

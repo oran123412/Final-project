@@ -1,0 +1,14 @@
+.circuledImagesSwiper .swiper-button-prev,
+.circuledImagesSwiper .swiper-button-next {
+  top: 65% !important;
+}
+.images-container img {
+  width: 126px;
+  height: 97px;
+}
+@media (max-width: 900px) {
+  .images-container img {
+    width: 126px;
+    height: 84px;
+  }
+}

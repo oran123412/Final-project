@@ -1,0 +1,7 @@
+.gradient-background {
+  background: linear-gradient(to bottom, #ff9966, #ff5e62);
+  width: 100vw;
+}
+.customBottomNavigation {
+  background-image: url("../public/backgroundHeader.jpg");
+}

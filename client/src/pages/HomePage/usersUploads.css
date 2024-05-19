@@ -1,0 +1,78 @@
+.swiper-button-prev,
+.swiper-button-next {
+  background-size: 20px 20px;
+  color: #000;
+  top: 42%;
+  transform: translateY(-50%);
+}
+
+.user-uploads-card {
+  width: 75%;
+}
+
+.swiper-container {
+  overflow: visible;
+}
+
+.book-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.book-image {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+.users-uploads .swiper-slide img {
+  width: 100%;
+  max-width: 100% !important;
+}
+
+.book-details {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.book-title {
+  margin-top: 10px;
+}
+
+.book-description {
+  color: #666;
+}
+.swiper-container .swiper-slide .book-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.swiper-container .swiper-slide .card-image-container img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+element.style {
+  height: 100vh;
+}
+.users-uploads-swiper .swiper-wrapper {
+  margin-bottom: 20px;
+}
+
+.users-uploads-specific
+  .MuiCardActions-root
+  .MuiIconButton-root:not(:last-child) {
+  display: none;
+}
+
+.users-uploads-specific .MuiCardActions-root .MuiIconButton-root:last-child {
+  display: inline-flex;
+}
+@media (max-width: 480px) {
+  .user-uploads-card img {
+    max-width: 100%;
+  }
+}

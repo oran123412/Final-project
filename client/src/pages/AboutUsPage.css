@@ -1,0 +1,49 @@
+.about-us-content {
+  font-family: "Arial", sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.about-us-content h1,
+.about-us-content h2 {
+  color: #ff8000;
+}
+
+.about-us-content ul {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+.about-us-content li {
+  margin-bottom: 10px;
+}
+
+.about-us-content p,
+.about-us-content ul,
+.about-us-content li {
+  font-size: 16px;
+}
+
+.about-us-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.about-us-content a:hover {
+  text-decoration: underline;
+}
+
+.animation-container {
+  margin-bottom: 20px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animation-container rect {
+  fill: #ffffff;
+}
